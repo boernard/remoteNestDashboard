@@ -1,0 +1,81 @@
+table {
+  border-collapse: separate;
+  font-family: Arial, sans-serif;
+  border-spacing: 4px 8px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table, th, td {
+  border: none;
+}
+
+td {
+  width: 20px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 4px;
+}
+
+.In, .Out, .middle, .small, .large, .cabin1, .cabin2, .villa, .topRoom, .groundRoom {
+  border-radius: 8px;
+  padding: 4px 4px;
+}
+
+.In {
+  background-color: #FECACA;
+}
+
+.Out {
+  background-color: #BFDBFE;
+}
+
+.middle {
+  background-color: #46839B;
+  color: white;
+}
+
+.large {
+  background-color: #38697c;
+  color: white;
+}
+
+.small {
+  background-color: #7EC1D8;
+}
+
+.villa {
+  background-color: #FF39A9;
+}
+
+.cabin1 {
+  background-color: #FDD893;
+}
+
+.cabin2 {
+  background-color: #E2BA6F;
+}
+
+.topRoom {
+  background-color: #C07048;
+}
+
+.groundRoom {
+  background-color: #974B25;
+  color: white
+}

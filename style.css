@@ -79,3 +79,9 @@ td {
   background-color: #974B25;
   color: white
 }
+
+p {
+  font-size: 10px;
+  font-family: sans-serif;
+  margin: 0;
+}

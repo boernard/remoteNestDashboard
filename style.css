@@ -6,7 +6,6 @@ table {
 
 th, td {
   padding: 8px;
-  text-align: left;
 }
 
 th {
@@ -27,8 +26,10 @@ table, th, td {
 
 td {
   width: 20px;
+  text-align: left;
+  max-width: 150px;
   white-space: nowrap;
-  text-align: center;
+  overflow-x: clip;
   margin: 0 4px;
 }
 

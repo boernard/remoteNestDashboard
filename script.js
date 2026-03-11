@@ -37,7 +37,10 @@ const htmlHeader = `<!DOCTYPE html>
 const htmlEnd = `</body></html>`
 
 const tableContent = createHtmlTable(fetchBookings.data)
-const lastUpdated = `<p>Last updated: ${new Date().toLocaleString()}</p>`
+const lastUpdated = `<p>Last updated: ${new Date()
+  .toISOString()
+  .replace(/T/, ' ')
+  .replace(/\..+/, '')}</p>`
 const htmlContent = `${htmlHeader}${lastUpdated}${tableContent}${htmlEnd}`
 
 return htmlContent
